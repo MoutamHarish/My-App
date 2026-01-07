@@ -1,0 +1,50 @@
+<ion-content class="ion-padding">
+
+  <div class="login-header">
+    <h1>Register</h1>
+    <p>Create your account</p>
+  </div>
+
+  <ion-list lines="none">
+
+    <ion-item>
+      <ion-input
+        label="Username"
+        labelPlacement="stacked"
+        placeholder="Enter username"
+        ngModel>
+      </ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input
+        label="Email"
+        labelPlacement="stacked"
+        type="email"
+        placeholder="Enter email"
+        ngModel>
+      </ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input
+        label="Password"
+        labelPlacement="stacked"
+        type="password"
+        placeholder="Enter password"
+        ngModel>
+      </ion-input>
+    </ion-item>
+
+  </ion-list>
+
+  <ion-button expand="block" class="login-btn">
+    Register
+  </ion-button>
+
+  <div class="register-link">
+    Already have an account?
+    <a routerLink="/login">Login</a>
+  </div>
+
+</ion-content>
